@@ -1,6 +1,12 @@
 #include<stdlib.h>
 #include<stdio.h>
 
-int main(int n, char** v) {
+#include"argreader.h"
 
+int main(int n, char** v) {
+	tlas_args_t a;
+	
+	readargs(n, v, &a);
+
+	return 0;
 }
