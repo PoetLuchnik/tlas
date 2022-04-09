@@ -24,6 +24,7 @@
     <ProjectGuid>{9bdafe78-5c45-4088-952a-4ff9cdf7db34}</ProjectGuid>
     <RootNamespace>tlasm</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>tlas</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
